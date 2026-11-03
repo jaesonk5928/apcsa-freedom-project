@@ -22,8 +22,18 @@ void main() {
 ```
 * The main function is the **entry point** to any _Dart_ program.
 
-### X/X/XX:
-* Text
+### 11/3/26:
+* To use Flutter in _Windows_, The first step is to download "Andriod Studio Emulator" to see the "phone" digtialy on the app as you code. (Make sure to download the latest version to code smoothly)
+
+  * After, require the VS Code Studio to act as the coding terminal for the Flutter app (downloaded already)
+  * Need extensions to code easily to check bracket endings & colored. (Not required)
+  * Download XCode & Simulator (The main reason: supports Flutter with easier navagation)
+
+* To make an app, you need the Command terminal built on the computer to access/create the Flutter terminal (In Android Studio)  
+  * `Scaffold` and `MaterialApp` widgets are the most important for building a **Flutter** app
+    * Both are needed to build an app. (Basically the skeleton of the code) 
+* THE VIDEO THAT I'M CURRENTLY [WATCHING](https://www.youtube.com/watch?v=CD1Y2DmL5JM). The section that I'm up to -> `32:34` - `45:22`. 
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
