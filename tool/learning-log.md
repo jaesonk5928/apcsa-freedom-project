@@ -58,10 +58,34 @@ void main() {
   ```
 * Next learning log, I will show how to make the bottom navbar (with home & settings), which takes more time to make. It requires image icons to upload from files in your computer
 
+### 11/26/26
+After the last learning log, I've been invested into watching this video for the past couple weeks. By the way, the name of the video is **Flutter Tutorial For Beginners in 3 hours**. It's exactly _3:15:32_ long. The video link is [here](https://www.youtube.com/watch?v=CD1Y2DmL5JM). 
 
+  * The method to making content inside the middle of the app is simple. The code is similar to HTML, as we need a `body` to write the code in order for text to appear inside the app. Here is an example:
+  ```java
+  body: Text ('Here is a text displayed'), 
+  ```
+This directly adds text in the app, but the layout is in **top-left** corner. Same thing with _HTML_, we need to use `margins`, `padding`, and `text-align` to align the text. (We will learn this later in the video. 
 
-
-
+* As I stated, there are multiple steps into making a bottom nav-bar. One-by-one:
+  * Write `bottomNavagationBar: bottomNavagationBar()` to declare one
+  * Under, state `items: [BottomNavagationBarItem]` to add the icons in the navbar.
+  * After-Result:
+  <br>
+  
+  ```java
+  BottomNavagationBarItem(
+  label: 'Home',
+  icon: Icon(Icons.home)
+  )
+  
+  BottomNavagationBarItem(
+  label: 'Settings',
+  icon: Icon(Icons.settings)
+  )
+  ```
+<br>
+Next time, I will show you how to make clickable **buttons** to help make the app "responsive". 
 
 <!-- 
 * Links you used today (websites, videos, etc)
